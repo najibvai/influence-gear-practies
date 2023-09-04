@@ -168,7 +168,13 @@ body {
     margin-bottom: 30px;
 }
 
-
+/* --------------------feature Section---------------------- */
+.feature{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 96px;
+}
 
 
 
