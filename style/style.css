@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* Nav Section Style */
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    margin: 87px 120px;
+}
+
+.nav-title {
+    color: #3A3A3A;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.nav-list ul {
+    display: flex;
+    gap: 34px;
+    list-style: none;
+}
+
+.nav-list ul a {
+    color: #3A3A3A;
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+/* Banner Section */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    /* margin: 87px 120px; */
+    margin-right: 165px;
+}
+
+.banner-content {
+    margin-left: 120px;
+    margin-top: 145px;
+}
+
+.banner-title {
+    color: #3A3A3A;
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.banner-description {
+    color: #3A3A3A;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 16px;
+}
+
+.banner-btn {
+    border: 0px;
+    padding: 10px 24px;
+    border-radius: 41px;
+    background: #E02C6D;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 0px;
+}
+
+.banner>img {
+    border: 1px solid rgb(250, 236, 254);
+    border-radius: 100%;
+    background-size: 50%;
+}
+
+.banner-logos {
+    display: flex;
+    border-top: 1px solid rgba(55, 119, 192, 0.1);
+    border-bottom: 1px solid rgba(55, 119, 192, 0.1);
+    margin-top: 70px;
+    margin-left: 226px;
+    margin-right: 226px;
+    padding: 43px;
+    justify-content: space-between;
+}
+
+/* .container{
+    margin: 20px 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 200px) 50px 50px;
+    gap: 20px;
+}
+.box{
+    background-color: gray;
+}
+#box-1{
+    grid-row: span 5;
+}
+#box-11, #box-12{
+    grid-column: span 3;
+} */
+
+/*-------------- popular section Style--------------- */
+.card-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:0px;
+}
+
+.card {
+    background-color: #3A3A3A;
+    width: 329px;
+    height: 476px;
+    flex-shrink: 0;
+}
+
+.popular-section-title {
+    text-align: center;
+    margin-top: 100px;
+    color: #3A3A3A;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+/* ----------------Response Style Section-------------- */
+@media screen and (max-width:576px) {
+    .navigation {
+        flex-direction: column;
+    }
+}
